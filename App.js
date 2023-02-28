@@ -49,7 +49,7 @@ export default function App() {
         <p>Lets test your knowledge on activity emoji's </p>
         <input
           className="input"
-          placeholder="please enter your interested emoji"
+          placeholder="please click🖱️ any available emoji"
           onChange={emojiInputHandler}
         />
         <div className="output">{meaning} </div>
